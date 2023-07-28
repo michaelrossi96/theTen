@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+:root {
+    --banner-bg-color: black;
+    --link-color: black;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    line-height: 1.5;
+}
+
+.banner {
+    width: 100%;
+    height: 30px;
+    background-color: var(--banner-bg-color);
+    display: flex;
+    justify-content: center;
+}
+
+.banner a {
+    display: flex;
+}
+
+.banner h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.location {
+    color: #fff;
+    margin-top: 2px;
+}
+
+.arrow {
+    color: #fff;
+    margin-top: 4px;
+}
+
+/*HEADER*/
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 11111;
+    border-bottom: 1px solid white;
+    background-color: #F2F2F3;
+}
+
+.menu-list ul{
+    display: flex;
+}
+
+.menu-list a {
+    align-items: center;
+    padding: 5px;
+    color: var(--link-color);
+}
+
+.menu-list a:hover{
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    z-index: 1222;
+    width: 110px;
+    margin-right: 120px;
+}
+
+.logo img {
+    width: 110px;
+    margin-right: 50px;
+}
+
+.pc ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.pc a{
+    color: var(--link-color);
+    padding: 5px;
+}
+
+.pc a:hover{
+    text-decoration: underline;
+}
+
+main{
+    max-width: 100%;
+    margin: 22px 0px auto;
+    min-height: 100vh;
+    position: relative;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://res.cloudinary.com/dcwq74lfg/image/upload/v1688503778/brand/TenCo/site/6ebd28dee68958e5d03a988d35e28b03.svg);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+main .button {
+    color: white;
+    margin: 550px auto auto;
+    align-content: baseline;
+    display: flex;
+}
+
+.button button {
+    display: inline-flex;
+    appearance: none;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    line-height: 1.2;
+    border-radius: 6px;
+    height: 2.5rem;
+    min-width: 2.5rem;
+    font-size: 0.9rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    background: #000000;
+    color: #fff;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+}
+
+.section {
+    margin-top: 0;
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0rem 1rem;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro .pp {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.strain {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.strain .strain1 img, .strain .strain2 img, .strain .strain3 img{
+    width: 20%;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+}
+
+/*footer*/
+footer {
+    min-height: 200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #F2F2F3;
+    margin: 0;
+}
+
+.logofoot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.logofoot img {
+    height: 100px;
+}
+
+.logofoot a {
+    margin-left: 20px;
+}
+
+.git {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.git p {
+    color: black;
+    text-align: left;
+}
+
+.ql {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.ql p {
+    color: black;
+    text-align: left;
+}
+
+.nl {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 50px;
+}
